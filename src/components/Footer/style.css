@@ -1,0 +1,60 @@
+footer{
+    background-color: #404040;
+    width: 100%;
+    height: 350px;
+    border-top: 3px solid #48c4ca;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 620px;
+}
+.footer-logo-image{
+    width: 200px;
+    border-radius: 50%;
+    border: 3px solid #48c4ca;
+    box-shadow: 0px 0px 10px #48c4ca;
+}
+.footer-auto-gallery-name{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 5px;
+}
+.footer-instagram-box{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    width: 120px;
+    margin-right: 10px;
+}
+.footer-instagram-logo{
+    width: 45px;
+}
+.footer-instagram-link{
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0px;
+    color: white;
+    position: absolute;
+    top: 14px;
+    left: 50px;
+}
+.footer-telegram-box{
+    position: relative;
+    display: inline-block;
+    text-align: left;
+    width: 120px;
+}
+.footer-telegram-logo{
+    width: 45px;
+}
+.footer-telegram-link{
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0px;
+    color: white;
+    position: absolute;
+    top: 14px;
+    left: 50px;
+}
+.footer-auto-gallery-phone-number{
+    margin: 5px;
+}

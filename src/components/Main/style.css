@@ -1,0 +1,52 @@
+.vehicle-item{
+    direction: rtl;
+    background-color: #606060;
+    width: 660px;
+    height: 275px;
+    border-radius: 15px;
+    border: 3px solid #707070;
+    box-shadow: 0px 0px 10px #606060;
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+    float: right;
+}
+.vehicle-image-box{
+    width: 264px;
+    margin: 5px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.vehicle-image{
+    width: 120px;
+    margin: 6px;
+    border-radius: 8px;
+}
+.vehicle-name{
+    margin-right: 275px;
+    font-size: 20px;
+    text-align: right;
+}
+.vehicle-item-description{
+    width: 360px;
+    background-color: #808080;
+    margin-right: 275px;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #707070;
+    text-align: right;
+}
+.vehicle-item-option{
+    padding: 0px 4px;
+    border-left: 4px solid #606060;
+    display: inline-block;
+    color: #d4d4d4;
+}
+.vehicle-price{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: #48c4ca;
+    font-size: 17px;
+}
