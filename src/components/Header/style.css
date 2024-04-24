@@ -1,13 +1,24 @@
-header{
-    background-color: #404040;
+.header-dark {
+    background-color: #2e4141;
     width: 100%;
     height: 140px;
     border-bottom: 3px solid #48c4ca;
     text-align: center;
     position: relative;
+    box-shadow: 0px 0px 10px black;
 }
-.header-right-div{
-    display: inline-block;
+
+.header-light {
+    background-color: #6c9593;
+    width: 100%;
+    height: 140px;
+    border-bottom: 3px solid #48c4ca;
+    text-align: center;
+    position: relative;
+    box-shadow: 0px 0px 10px #48c4ca;
+}
+
+.header-right-div {
     position: relative;
     width: 240px;
     height: 140px;
@@ -15,7 +26,18 @@ header{
     top: 0px;
     right: 0px;
 }
-.header-auto-gallery-logo{
+
+.header-auto-gallery-logo-dark {
+    width: 120px;
+    border-radius: 50%;
+    border: 3px solid #48c4ca;
+    box-shadow: 0px 0px 10px black;
+    position: absolute;
+    top: 7px;
+    right: 7px;
+}
+
+.header-auto-gallery-logo-light {
     width: 120px;
     border-radius: 50%;
     border: 3px solid #48c4ca;
@@ -24,61 +46,92 @@ header{
     top: 7px;
     right: 7px;
 }
-.header-auto-gallery-name{
+
+.header-auto-gallery-name {
     position: absolute;
     top: 57px;
     right: 140px;
     margin: 0px;
 }
-.header-center-div{
+
+.header-center-div {
     display: inline-block;
     text-align: center;
     margin-top: 10px;
 }
-.header-auto-gallery-welcome{
+
+.header-auto-gallery-welcome {
     font-size: 21px;
     font-weight: bolder;
 }
-.header-auto-gallery-phone-number{
+
+.header-auto-gallery-phone-number-dark {
+    font-size: 18px;
+    font-weight: lighter;
+    color: #dee9e8;
+}
+
+.header-auto-gallery-phone-number-light {
     font-size: 18px;
     font-weight: lighter;
 }
-.header-left-div{
-    background-color: aquamarine;
+
+.header-left-div {
     text-align: left;
     position: absolute;
     top: 8px;
     left: 0px;
-
 }
-.header-left-div-instagram{
+
+.header-left-div-instagram {
     position: relative;
     height: 62px;
 }
-.header-left-div-instagram-logo{
+
+.header-left-div-instagram-logo {
     width: 50px;
     position: absolute;
     top: 6px;
     left: 7px;
 }
-.header-left-div-instagram-link{
+
+.header-left-div-instagram-link-dark {
     color: white;
     text-decoration: none;
     position: absolute;
     top: 20px;
     left: 62px;
 }
-.header-left-div-telegram{
+
+.header-left-div-instagram-link-light {
+    color: black;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: 62px;
+}
+
+.header-left-div-telegram {
     position: relative;
 }
-.header-left-div-telegram-logo{
+
+.header-left-div-telegram-logo {
     width: 50px;
     position: absolute;
     top: 6px;
     left: 7px;
 }
-.header-left-div-telegram-link{
+
+.header-left-div-telegram-link-dark {
     color: white;
+    text-decoration: none;
+    position: absolute;
+    top: 20px;
+    left: 62px;
+}
+
+.header-left-div-telegram-link-light {
+    color: black;
     text-decoration: none;
     position: absolute;
     top: 20px;

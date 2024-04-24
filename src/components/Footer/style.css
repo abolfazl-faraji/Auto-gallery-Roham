@@ -1,5 +1,5 @@
-footer{
-    background-color: #404040;
+.footer-dark {
+    background-color: #2e4141;
     width: 100%;
     height: 350px;
     border-top: 3px solid #48c4ca;
@@ -7,54 +7,93 @@ footer{
     padding-top: 10px;
     margin-top: 620px;
 }
-.footer-logo-image{
+
+.footer-light {
+    background-color: #6c9593;
+    width: 100%;
+    height: 350px;
+    border-top: 3px solid #48c4ca;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 620px;
+}
+
+.footer-logo-image {
     width: 200px;
     border-radius: 50%;
     border: 3px solid #48c4ca;
-    box-shadow: 0px 0px 10px #48c4ca;
+    box-shadow: 0px 0px 10px black;
 }
-.footer-auto-gallery-name{
+
+.footer-auto-gallery-name {
     font-size: 20px;
     font-weight: bolder;
     margin: 5px;
 }
-.footer-instagram-box{
+
+.footer-instagram-box {
     position: relative;
     display: inline-block;
     text-align: left;
     width: 120px;
     margin-right: 10px;
 }
-.footer-instagram-logo{
+
+.footer-instagram-logo {
     width: 45px;
 }
-.footer-instagram-link{
+
+.footer-instagram-link-dark {
     text-decoration: none;
     font-size: 15px;
     margin: 0px;
-    color: white;
+    color: #f5f8f7;
     position: absolute;
     top: 14px;
     left: 50px;
 }
-.footer-telegram-box{
+
+.footer-instagram-link-light {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0px;
+    color: black;
+    position: absolute;
+    top: 14px;
+    left: 50px;
+}
+
+.footer-telegram-box {
     position: relative;
     display: inline-block;
     text-align: left;
     width: 120px;
 }
-.footer-telegram-logo{
+
+.footer-telegram-logo {
     width: 45px;
 }
-.footer-telegram-link{
+
+.footer-telegram-link-dark {
     text-decoration: none;
     font-size: 15px;
     margin: 0px;
-    color: white;
+    color: #f5f8f7;
     position: absolute;
     top: 14px;
     left: 50px;
 }
-.footer-auto-gallery-phone-number{
+
+.footer-telegram-link-light {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 0px;
+    color: black;
+    position: absolute;
+    top: 14px;
+    left: 50px;
+}
+
+.footer-auto-gallery-phone-number {
     margin: 5px;
 }
